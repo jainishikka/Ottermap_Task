@@ -1,0 +1,23 @@
+Given project is the assignment assigned by "Ottermap" company.
+FUll stack project in django where-
+1. Registration Page-
+   Users could register their shops, along with latitude, longitude and name.
+2. Success Page and Search Page-
+   Users will be redirected to a search page where they could search for shops along with the success page.
+
+Constraints-
+1. Mandatory to add latitude and longitude with correct dimensions, i.e (-90 to 90) for latitude and (-180 to 180) for longitude and shop name while registering not for searching.
+2. Used Haversine formula for calculating distance between user current location and shops.
+3. Used DRF and an API doc for all the APIs.
+4. Made a model name Shop, with all given fields.
+5. Configured the whole project with django-admin command and created a virtual environment.
+
+Super User-
+Created super user with name "ishikka" and password- "12345"
+
+Already added some data for testing.
+
+To run project-
+1. Activate virtual environment of name-'.venv'
+2. cd Shops.
+3. run- python manage.py runserver.
